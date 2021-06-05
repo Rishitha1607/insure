@@ -1,0 +1,84 @@
+#nav-bar{
+	position:static;
+	top:10;
+	z-index: 0;
+}
+.navbar-brand img{
+	padding-left: 30px;
+
+}
+.navbar-nav li{
+	padding:0 5px;
+
+}
+.navbar-nav li a{
+	float:right;
+	text-align: left;
+}
+#nav-bar ul li a.ex:hover{
+	color:black!important;
+}
+.nav-link{
+	color:hsl(273, 4%, 51%);
+	font-weight: 700;
+	font-size: 14px;
+	font-family: 'Karla',sans-serif;
+}
+@media screen and (max-width: 1400px) {
+  .image{
+  	padding-top: 30px;
+  	position: absolute;
+  	right:100px;
+  	height:500px;
+  }
+  .img{
+  	text-align: right;
+  }
+  .right{
+  	text-align:right;
+  	right: 0;
+  	margin-top: 0;
+  	position: relative;
+  	height:350px;
+  }
+  .left{
+  	text-align: left;
+  	margin-left:0;
+  	margin-top: 0;
+  	position:relative;
+  }
+  
+
+/* Bottom right text */
+	.text-block {
+	  position: absolute;
+	  text-align: left;
+	  top: 100px;
+	  left:50px;
+	  background-color: transparent;;
+	  color: white;
+	  width: 40%;
+	}
+	.sv{
+  	text-align:right;
+  	margin-left: 0;
+  	margin-top: 0;
+  	left:0px!important;
+  	top:300px;
+  	position: absolute;
+  	height:350px;
+  	}
+
+}
+#nav-bar ul li a.ex1{
+	border:1px solid hsl(256, 26%, 20%) ;
+	color:hsl(256, 26%, 20%);
+}
+#nav-bar ul li a.ex1:hover{
+	border:none;
+	background-color: hsl(256, 26%, 20%);
+	color:white;
+}
+#colour a.img:hover{
+	color:black!important;
+}
